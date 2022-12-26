@@ -137,7 +137,7 @@ gameContinue=True
 
 #while loop
 while gameContinue:
-  ball.forward(5)
+  ball.forward(3)
 
   screen.update()
   # if checkcollison with ball and paddle then the ball sould bounce off
@@ -156,15 +156,15 @@ while gameContinue:
   if ball.ycor() < -240:
     boundary.penup()
     boundary.goto(-200,0)
-    boundary.color("midnight blue")
-    boundary.write("YOU LOSE!")
+    boundary.color("white")
+    boundary.write("YOU LOSE!", font=("Times New Roman", 25, "normal"))
     gameContinue=False
 
   if score == 720:
     boundary.penup()
     boundary.goto(-200,0)
-    boundary.color("orange")
-    boundary.write("You Win!")
+    boundary.color("white")
+    boundary.write("You Win!", font=("Times New Roman", 25, "normal"))
     gameContinue=False
 
   # if the ball hits the top, left, and right side it should bounce back
