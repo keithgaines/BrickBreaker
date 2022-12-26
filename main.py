@@ -7,6 +7,7 @@ from paddle import Paddle
 from ball import Ball
 
 screen = tk.Screen()
+screen.setup(width=600, height=700)
 screen.tracer(0)
 screen.bgcolor("black")
 screen.register_shape("paddle",((0,0),(20,0),(20,100),(0,100)))
