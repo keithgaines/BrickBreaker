@@ -9,8 +9,8 @@ class Ball(Turtle):
         self.penup()
         self.goto(-50,-210)
         self.setheading(random.randint(1,179))
-        self.x_move = 10
-        self.y_move = 10
-        self.move_speed = 0.1
+        self.x_move = 6
+        self.y_move = 6
+        self.move_speed = 0.9
 
 
