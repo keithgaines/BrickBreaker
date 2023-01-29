@@ -1,9 +1,10 @@
 Brick Breaker Game
 
-A fun and simple brick breaker game written in Python using the turtle library.
+A fun and simple brick breaker game written in Python using the turtle library.<br>
 Getting Started
-
+<br>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+<br>
 Prerequisites
 
 You will need to have Python and the turtle library installed on your machine.
