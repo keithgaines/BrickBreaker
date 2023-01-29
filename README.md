@@ -28,7 +28,7 @@ Use the left and right arrow keys to move the paddle and hit the ball towards th
 Built With: <br>
 <br>
 
-Python - Programming language
+Python - Programming language<br>
 Turtle - Graphics library
 
 
