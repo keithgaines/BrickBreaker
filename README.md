@@ -1,15 +1,15 @@
-Brick Breaker Game
+<h1>Brick Breaker Game</h1>
 
-A fun and simple brick breaker game written in Python using the turtle library.<br>
+A fun and simple brick breaker game written in Python using the turtle library.
+<br> 
+
 Getting Started
-<br>
-<br>
+
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-<br>
 <br>
 Prerequisites
 
-You will need to have Python and the turtle library installed on your machine.
+- You will need to have Python and the turtle library installed on your machine.
 
 Clone the repository to your local machine:
 ```bash
@@ -25,14 +25,19 @@ python brick_breaker.py
 Gameplay
 
 Use the left and right arrow keys to move the paddle and hit the ball towards the bricks. Each brick you hit will earn you points, and you have 3 lives to break all the bricks.
+
+<br>
 Built With: <br>
 <br>
 
-Python - Programming language<br>
+Python - Programming language
 Turtle - Graphics library
 
-
-
+<br>
 Authors:
 <br>
 Keith Gaines - https://github.com/keithgaines
+
+
+
+
